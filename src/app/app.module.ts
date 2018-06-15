@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ExcelComponent } from './components/excel/excel.component';
 import { FullcalendarComponent } from './components/fullcalendar/fullcalendar.component';
+import { FullCalendarModule } from 'ng-fullcalendar';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { FullcalendarComponent } from './components/fullcalendar/fullcalendar.co
     FullcalendarComponent
   ],
   imports: [
+    FullCalendarModule,
     BrowserModule
   ],
   providers: [],
